@@ -1,0 +1,39 @@
+baseURL: http://example.org/
+languageCode: en-us
+title: Hitesh Kumawat
+theme: PaperMod
+
+params:
+  homeInfoParams:
+    Title: "🙋‍♂️ Hi, I'm Hitesh! "
+    Content: Welcome to my blog. Explore my engaging blog for inspiration and knowledge.
+  socialIcons:
+    - name: email
+      url: "mailto:hiteshkumawat19@gmail.com"
+    - name: twitter
+      url: "https://twitter.com/hiteshkrkumawat"
+    - name: github
+      url: "https://github.com/Hiteshkumawat"
+    - name: personal website
+      url: "https://hiteshkumawat.com/"
+  ShowBreadCrumbs: true
+
+  ShowReadingTime: true
+
+  ShowShareButtons: true
+
+  ShowPostNavLinks: true
+
+  cover:
+    linkFullImages: false
+
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 10
+    - identifier: allpots
+      name: All posts
+      url: /posts/
+      weight: 20
